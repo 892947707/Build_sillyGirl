@@ -25,6 +25,10 @@ jobs:
            git clone https://github.com/cdle/sillyGirl.git
            mv dev.go.demo sillyGirl/dev.go
 
+    - name: Git clone jd_cookie
+      run:
+        cd sillyGirl/develop && git clone https://github.com/ufuckee/jd_cookie.git
+
     - name: build
       run: |
            cd sillyGirl
