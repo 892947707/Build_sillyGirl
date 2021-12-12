@@ -28,8 +28,10 @@ jobs:
            mv dev.go.demo sillyGirl/dev.go
 
     - name: Git clone jd_cookie
-      run:
-        cd sillyGirl/develop && git clone https://github.com/ufuckee/jd_cookie.git
+      run: |
+           cd sillyGirl/develop
+           git clone https://github.com/ufuckee/jd_cookie.git
+           git clone https://github.com/hdbjlizhe/fanli_pdd.git
 
     - name: build
       run: |
