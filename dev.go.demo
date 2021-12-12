@@ -1,5 +1,7 @@
 package main
-
+replace (
+  github.com/cdle/sillyGirl/develop/pdd_fanli => github.com/hdbjlizhe/fanli_pdd latest
+)
 import (
 	_ "github.com/cdle/sillyGirl/develop/qinglong"
 	_ "github.com/cdle/sillyGirl/im/qq"
